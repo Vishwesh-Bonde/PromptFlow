@@ -1,0 +1,12 @@
+# Runtime dependencies (verified on Python 3.14.7)
+fastapi==0.141.1
+starlette==0.52.1
+uvicorn==0.54.0
+pydantic==2.14.2
+pydantic-settings==2.16.2
+aiosqlite==0.22.1
+
+# Development and test dependencies (never needed to run the app)
+pytest==9.2.0
+httpx==0.28.1
+anyio==4.15.1
